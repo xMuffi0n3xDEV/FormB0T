@@ -6,7 +6,7 @@ module.exports.run = async (_client, message) => {
     let noPerm = new Discord.RichEmbed()
     .setColor('#FF0000')
     .setDescription('Brak uprawnien!')
-    if(message.member.hasPermssion('MANAGE_MESSAGES')) return message.channel.send(noPerm);
+    if(!message.member.hasPermission('MANAGE_MESSAGES')) return message.channel.send(noPerm);
 
     let pUser = message.guild.member(message.mentions.users.first());
 
