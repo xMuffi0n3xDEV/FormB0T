@@ -1,0 +1,17 @@
+{
+  "name": "FormB0T",
+  "version": "1.0.0",
+  "description": "FormB0T is project created by xMuffionex to manage the recrutation or partnership forms.\r It's created in Polish language, but we working to add the english language.",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "xMuffionex",
+  "license": "ISC"
+}
